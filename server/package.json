@@ -1,0 +1,25 @@
+{
+  "name": "server-auth",
+  "version": "1.0.0",
+  "description": "teste auth",
+  "main": "index.js",
+  "author": "Felipe F",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "prisma": "^4.9.0",
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@fastify/jwt": "^6.5.0",
+    "@prisma/client": "^4.9.0",
+    "fastify": "^4.11.0",
+    "fastify-type-provider-zod": "^1.1.8",
+    "zod": "^3.20.2"
+  }
+}
